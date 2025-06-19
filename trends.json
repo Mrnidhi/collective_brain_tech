@@ -1,84 +1,84 @@
 {
   "top_keywords": [
     [
-      "update",
-      2.897714148383488
-    ],
-    [
-      "need",
-      2.5854355849236055
-    ],
-    [
-      "job",
-      2.5250320210168185
-    ],
-    [
-      "ai",
-      2.282717594722782
-    ],
-    [
-      "advice",
-      2.233165228413105
-    ],
-    [
-      "experience",
-      2.0902860143412627
+      "use",
+      2.3761165547250083
     ],
     [
       "python",
-      2.0604284086835047
+      2.327535843433798
     ],
     [
-      "data",
-      1.8681807427825363
+      "programming",
+      2.203281630917594
     ],
     [
-      "repository",
-      1.5450195243619986
+      "error",
+      2.1009106166865226
     ],
     [
-      "college",
-      1.539547592571268
+      "does",
+      2.0443512379271627
     ],
     [
-      "interview",
-      1.5362214686223352
+      "update",
+      1.987179662248022
     ],
     [
-      "adding",
-      1.5158623327694976
+      "ai",
+      1.9562566864002864
     ],
     [
-      "add",
-      1.46317821576326
+      "experience",
+      1.940430327923696
     ],
     [
-      "structures",
-      1.3811104160212073
+      "work",
+      1.8416659192119063
     ],
     [
-      "owners_aliases",
-      1.3627406687378938
+      "learn",
+      1.7491223835075094
     ],
     [
-      "updated",
-      1.3556020557007507
+      "job",
+      1.7100136461155973
     ],
     [
-      "help",
-      1.3420051000693425
+      "need",
+      1.6753179072356341
     ],
     [
-      "industry",
-      1.3329031112178873
+      "api",
+      1.6161613967751987
     ],
     [
-      "looking",
-      1.3093510464542188
+      "best",
+      1.4674232061184185
     ],
     [
-      "app",
-      1.3055492601660357
+      "time",
+      1.4139456063409228
+    ],
+    [
+      "dev",
+      1.3766850208295254
+    ],
+    [
+      "js",
+      1.3703563938839376
+    ],
+    [
+      "backend",
+      1.328995263498017
+    ],
+    [
+      "coding",
+      1.310755253700075
+    ],
+    [
+      "question",
+      1.3083694625790998
     ]
   ],
   "top_entities": [],
@@ -96,127 +96,99 @@
       25
     ],
     [
+      "javascript",
+      4
+    ],
+    [
+      "sql",
+      3
+    ],
+    [
       "python",
-      6
+      3
+    ],
+    [
+      "oracle-database",
+      2
+    ],
+    [
+      "java",
+      2
+    ],
+    [
+      "html",
+      2
+    ],
+    [
+      "ajax",
+      2
+    ],
+    [
+      "url",
+      2
+    ],
+    [
+      "batch-file",
+      2
     ],
     [
       "c#",
       2
     ],
     [
-      "excel",
+      "c++",
       2
     ],
     [
-      "multithreading",
+      "node.js",
       2
     ],
     [
-      "machine-learning",
+      "css",
       2
     ],
     [
-      "swift",
-      2
-    ],
-    [
-      "computer-vision",
-      2
-    ],
-    [
-      "javascript",
-      2
-    ],
-    [
-      "regex",
+      "generics",
       1
     ],
     [
-      "ansible",
+      "java-8",
       1
     ],
     [
-      "helidon",
+      "seo",
       1
     ],
     [
-      "excel-dna",
+      "history",
       1
     ],
     [
-      "sql",
+      "delphi",
       1
     ],
     [
-      "sql-server",
+      "package",
       1
     ],
     [
-      "c",
+      "components",
       1
     ],
     [
-      "gcc",
+      "package-managers",
       1
     ],
     [
-      "struct",
+      "lockbox-3",
       1
     ],
     [
-      "python-3.x",
+      "c#-6.0",
       1
     ],
     [
-      "tkinter",
-      1
-    ],
-    [
-      "http-proxy",
-      1
-    ],
-    [
-      "powershell",
-      1
-    ],
-    [
-      "istio",
-      1
-    ],
-    [
-      "failover",
-      1
-    ],
-    [
-      "dicom",
-      1
-    ],
-    [
-      "scikit-learn",
-      1
-    ],
-    [
-      "reporting-services",
-      1
-    ],
-    [
-      "expression",
-      1
-    ],
-    [
-      "windows",
-      1
-    ],
-    [
-      "makefile",
-      1
-    ],
-    [
-      "build",
-      1
-    ],
-    [
-      "del",
+      "video-upload",
       1
     ],
     [
@@ -228,131 +200,39 @@
       1
     ],
     [
-      "opencv",
+      "uinavigationbar",
       1
     ],
     [
-      "user-interface",
+      "ios26",
       1
     ],
     [
-      "flet",
+      "liquid-glass",
       1
     ],
     [
-      "android",
+      "json",
       1
     ],
     [
-      "android-studio",
+      "arduino",
       1
     ],
     [
-      "deep-learning",
+      "arduinojson",
       1
     ],
     [
-      "pytorch",
+      "subprocess",
       1
     ],
     [
-      "spring-boot",
+      "pyinstaller",
       1
     ],
     [
-      "maven",
-      1
-    ],
-    [
-      "jacoco",
-      1
-    ],
-    [
-      "java-21",
-      1
-    ],
-    [
-      "swift-concurrency",
-      1
-    ],
-    [
-      "swift6",
-      1
-    ],
-    [
-      "excel-formula",
-      1
-    ],
-    [
-      "docker",
-      1
-    ],
-    [
-      "object-detection",
-      1
-    ],
-    [
-      "yolov11",
-      1
-    ],
-    [
-      "python-typing",
-      1
-    ],
-    [
-      "mypy",
-      1
-    ],
-    [
-      "logging",
-      1
-    ],
-    [
-      "pytest",
-      1
-    ],
-    [
-      "hibernate",
-      1
-    ],
-    [
-      "reactjs",
-      1
-    ],
-    [
-      "state",
-      1
-    ],
-    [
-      "html-tag-details",
-      1
-    ],
-    [
-      "node.js",
-      1
-    ],
-    [
-      "mongodb",
-      1
-    ],
-    [
-      "redis",
-      1
-    ],
-    [
-      "cordova",
-      1
-    ],
-    [
-      "authentication",
-      1
-    ],
-    [
-      "persistence",
-      1
-    ],
-    [
-      "ionic-framework",
+      "modulenotfounderror",
       1
     ],
     [
@@ -360,180 +240,304 @@
       1
     ],
     [
-      "system.transactions",
+      "entity-framework",
       1
     ],
     [
-      "grafana",
+      ".net-4.8",
+      1
+    ],
+    [
+      "fastapi",
+      1
+    ],
+    [
+      "starlette",
+      1
+    ],
+    [
+      "reactjs",
+      1
+    ],
+    [
+      "express",
+      1
+    ],
+    [
+      "react-redux",
+      1
+    ],
+    [
+      "angularjs",
+      1
+    ],
+    [
+      "scope",
+      1
+    ],
+    [
+      "angularjs-ng-include",
+      1
+    ],
+    [
+      "outlook",
+      1
+    ],
+    [
+      "mapi",
+      1
+    ],
+    [
+      "exchange-server-2013",
+      1
+    ],
+    [
+      "class",
+      1
+    ],
+    [
+      "inheritance",
+      1
+    ],
+    [
+      "program-entry-point",
+      1
+    ],
+    [
+      "php",
+      1
+    ],
+    [
+      "email",
+      1
+    ],
+    [
+      "vulkan",
+      1
+    ],
+    [
+      "google-cloud-dataflow",
+      1
+    ],
+    [
+      "apache-beam",
+      1
+    ],
+    [
+      "google-cloud-vertex-ai",
+      1
+    ],
+    [
+      "tensorflow-transform",
+      1
+    ],
+    [
+      "asp.net-core",
+      1
+    ],
+    [
+      "windows",
+      1
+    ],
+    [
+      "npm",
+      1
+    ],
+    [
+      "json-server",
+      1
+    ],
+    [
+      "android",
+      1
+    ],
+    [
+      "facebook",
+      1
+    ],
+    [
+      "facebook-audience-network",
+      1
+    ],
+    [
+      "sqlite",
+      1
+    ],
+    [
+      "omnet++",
+      1
+    ],
+    [
+      "plsql",
+      1
+    ],
+    [
+      "next.js",
+      1
+    ],
+    [
+      "material-ui",
+      1
+    ],
+    [
+      "fonts",
       1
     ]
   ],
   "top_repos": [
     [
-      "DavidLacombe46/website",
-      3
-    ],
-    [
-      "AqueductHub/pyaqueduct",
-      2
-    ],
-    [
-      "Valdo-OPS/ProyectosDeCV",
-      2
-    ],
-    [
-      "oderman-group/app-sintia",
-      2
-    ],
-    [
-      "danlsn/python-github-action-template",
+      "vishnuvardhank222/mobil-info-app",
       1
     ],
     [
-      "BANGSULSTAR/thumbnail",
+      "deeeepio-archive/users",
       1
     ],
     [
-      "cloudposse/packages",
+      "SatishChoudhary642/Leetcode-DSA-",
       1
     ],
     [
-      "Gab2601/planego",
+      "github-throwaway/off-devx-visualiser",
       1
     ],
     [
-      "Antonio-Velasco/azure-function-v2-template",
+      "chattysun/shred-ready-wheels-shop",
       1
     ],
     [
-      "Bill0319/nutrition",
+      "trangtrieu-dotcom/testinggame",
       1
     ],
     [
-      "dantypas3/elAPI_Plugins",
+      "yvf288/ronomemo",
       1
     ],
     [
-      "flowerpowertulane/flower_public",
+      "SkyHelperBot/Prices",
       1
     ],
     [
-      "moutonh/Pioneer",
+      "RebirthXS/free-ip-stresser-booter",
       1
     ],
     [
-      "arvind-skg/To-Do-List",
+      "arocha0714/metad688-job-market-analysis-for-summer-2025-group2",
       1
     ],
     [
-      "red-hat-data-services/rhods-operator",
+      "freefastconnect/fastconnect",
       1
     ],
     [
-      "Fluff5/10",
+      "RebirthXS/free-ip-stresser",
       1
     ],
     [
-      "Vsonneveld/foroxity-genres",
+      "Iceknight7745/Roblox-Seliware",
       1
     ],
     [
-      "odoo/o-spreadsheet",
+      "KelvinMbugii/Portfolio",
       1
     ],
     [
-      "penneyqafa/daily_task",
+      "bober2221/bobriha2221",
       1
     ],
     [
-      "valhallaguide/valhallabot",
+      "frelok362/algoviz",
       1
     ],
     [
-      "Automattic/jetpack-subscribers-dashboard",
+      "NotKolnay/couch-2-5k",
+      1
+    ],
+    [
+      "OpenTideHQ/CoreTide",
       1
     ]
   ],
   "keybert_keywords": [
     [
-      "de_core_news_sm",
-      0.411
+      "lockbox3",
+      0.3409
     ],
     [
-      "devops",
-      0.3806
-    ],
-    [
-      "cloudpossebot",
-      0.3783
-    ],
-    [
-      "updated",
-      0.3672
-    ],
-    [
-      "kubectl",
-      0.3567
-    ],
-    [
-      "updating",
-      0.3565
-    ],
-    [
-      "update",
-      0.3236
-    ],
-    [
-      "repository",
-      0.3201
-    ],
-    [
-      "merged",
-      0.3195
-    ],
-    [
-      "repo",
-      0.3017
-    ],
-    [
-      "dev",
-      0.2994
+      "supabase",
+      0.3241
     ],
     [
       "github",
-      0.2875
+      0.2922
     ],
     [
-      "patch",
-      0.2842
-    ],
-    [
-      "fix",
-      0.2836
-    ],
-    [
-      "latest",
-      0.2788
-    ],
-    [
-      "completed",
+      "repository",
       0.275
     ],
     [
-      "merge",
-      0.2715
+      "archive",
+      0.2646
     ],
     [
-      "etl_meteo",
-      0.2672
+      "jekyll",
+      0.2414
     ],
     [
-      "version",
-      0.2629
+      "deploy",
+      0.2379
     ],
     [
-      "ansible",
-      0.2606
+      "configure",
+      0.2163
+    ],
+    [
+      "devops",
+      0.2065
+    ],
+    [
+      "delphi",
+      0.2064
+    ],
+    [
+      "repo",
+      0.2034
+    ],
+    [
+      "de_core_news_sm",
+      0.2011
+    ],
+    [
+      "yml",
+      0.1967
+    ],
+    [
+      "resource",
+      0.194
+    ],
+    [
+      "env",
+      0.1934
+    ],
+    [
+      "configuration",
+      0.1898
+    ],
+    [
+      "update",
+      0.1887
+    ],
+    [
+      "build",
+      0.1839
+    ],
+    [
+      "updated",
+      0.1836
+    ],
+    [
+      "vscode",
+      0.1831
     ]
   ]
 }

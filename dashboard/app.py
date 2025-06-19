@@ -21,10 +21,13 @@ if st.sidebar.button('🔄 Refresh Trends'):
         if os.path.exists('trend_analysis/run_trends.py'):
             subprocess.run(['python', 'trend_analysis/run_trends.py'])
         st.cache_data.clear()
-        st.experimental_rerun()
+        st.rerun()
 
 # Data loading
-if not (os.path.exists("fetched_data.json") and os.path.exists("trends.json")):
+fetched_data_path = "../fetched_data.json" if os.path.exists("../fetched_data.json") else "fetched_data.json"
+trends_path = "../trends.json" if os.path.exists("../trends.json") else "trends.json"
+
+if not (os.path.exists(fetched_data_path) and os.path.exists(trends_path)):
     st.warning("fetched_data.json or trends.json not found. Please run the data pipeline first.\n\nTo generate data, run:\n\npython run_fetch.py\npython trend_analysis/run_trends.py")
     st.stop()
 
@@ -104,6 +107,10 @@ for i, tab in enumerate(tabs):
         st.subheader("Top Posts/Discussions")
         show_table(df_tab, view_by, top_n, search_query)
 
-from streamlit_autorefresh import st_autorefresh
-st_autorefresh(interval=300000, limit=None, key="refresh")
+# Make auto-refresh optional
+try:
+    from streamlit_autorefresh import st_autorefresh
+    st_autorefresh(interval=300000, limit=None, key="refresh")
+except ImportError:
+    st.sidebar.warning("Auto-refresh not available. Manual refresh required.")
 

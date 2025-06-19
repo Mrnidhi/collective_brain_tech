@@ -1,492 +1,329 @@
 [
   {
     "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "deploy to GitHub pages",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "Create index.html",
     "tags": [],
     "meta": {
-      "repo": "pmgo-professor-willow/data-leekduck",
+      "repo": "vishnuvardhank222/mobil-info-app",
       "lang": "",
-      "url": "https://github.com/pmgo-professor-willow/data-leekduck"
+      "url": "https://github.com/vishnuvardhank222/mobil-info-app"
     }
   },
   {
     "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "Gov4Git dev cron job. { \"msg\": \"Gov4Git dev cron job.\", \"fn\": \"cron\", \"query\": null, \"result\": { \"change_stamp\": \"2025-06-19T14:56:01.54308886Z\", \"gov4git_version\": { \"version\": \"dev\", \"revision\": \"9d680797696ac662a9515f1e33272ccdf55848c7\", \"last_commit\": \"2024-05-19T05:57:47Z\", \"dirty_build\": false } }, \"steps\": null }",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "Update users archive",
     "tags": [],
     "meta": {
-      "repo": "gov4git/roadmap-gov.public",
+      "repo": "deeeepio-archive/users",
       "lang": "",
-      "url": "https://github.com/gov4git/roadmap-gov.public"
+      "url": "https://github.com/deeeepio-archive/users"
     }
   },
   {
     "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "Create send email function.",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "Updated stats",
     "tags": [],
     "meta": {
-      "repo": "AhmetCengiz03/football-project",
+      "repo": "SatishChoudhary642/Leetcode-DSA-",
       "lang": "",
-      "url": "https://github.com/AhmetCengiz03/football-project"
+      "url": "https://github.com/SatishChoudhary642/Leetcode-DSA-"
     }
   },
   {
     "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "deploy: 5b18ff2c4fe0faf00d15e9137bf5934357f62558",
+    "tags": [],
+    "meta": {
+      "repo": "github-throwaway/off-devx-visualiser",
+      "lang": "",
+      "url": "https://github.com/github-throwaway/off-devx-visualiser"
+    }
+  },
+  {
+    "source": "github",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "Fix GitHub Pages paths Update `vite.config.ts` to correctly serve assets from the root directory when deployed to GitHub Pages.",
+    "tags": [],
+    "meta": {
+      "repo": "chattysun/shred-ready-wheels-shop",
+      "lang": "",
+      "url": "https://github.com/chattysun/shred-ready-wheels-shop"
+    }
+  },
+  {
+    "source": "github",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "Add Gun Cursor Animation with g1 and g2 Images",
+    "tags": [],
+    "meta": {
+      "repo": "trangtrieu-dotcom/testinggame",
+      "lang": "",
+      "url": "https://github.com/trangtrieu-dotcom/testinggame"
+    }
+  },
+  {
+    "source": "github",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "\u81ea\u52d5\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9 \u500b\u5225-01_chart6.png",
+    "tags": [],
+    "meta": {
+      "repo": "yvf288/ronomemo",
+      "lang": "",
+      "url": "https://github.com/yvf288/ronomemo"
+    }
+  },
+  {
+    "source": "github",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "prices update",
+    "tags": [],
+    "meta": {
+      "repo": "SkyHelperBot/Prices",
+      "lang": "",
+      "url": "https://github.com/SkyHelperBot/Prices"
+    }
+  },
+  {
+    "source": "github",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "https://rebirthstress.net",
+    "tags": [],
+    "meta": {
+      "repo": "RebirthXS/free-ip-stresser-booter",
+      "lang": "",
+      "url": "https://github.com/RebirthXS/free-ip-stresser-booter"
+    }
+  },
+  {
+    "source": "github",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "synced updated color",
+    "tags": [],
+    "meta": {
+      "repo": "arocha0714/metad688-job-market-analysis-for-summer-2025-group2",
+      "lang": "",
+      "url": "https://github.com/arocha0714/metad688-job-market-analysis-for-summer-2025-group2"
+    }
+  },
+  {
+    "source": "github",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "super",
+    "tags": [],
+    "meta": {
+      "repo": "freefastconnect/fastconnect",
+      "lang": "",
+      "url": "https://github.com/freefastconnect/fastconnect"
+    }
+  },
+  {
+    "source": "github",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "https://rebirthstress.net",
+    "tags": [],
+    "meta": {
+      "repo": "RebirthXS/free-ip-stresser",
+      "lang": "",
+      "url": "https://github.com/RebirthXS/free-ip-stresser"
+    }
+  },
+  {
+    "source": "github",
+    "timestamp": "2025-06-19T19:01:35+00:00",
     "text": "Commit",
     "tags": [],
     "meta": {
-      "repo": "nguyentucong2/persona-pilot-mock-saas",
+      "repo": "Iceknight7745/Roblox-Seliware",
       "lang": "",
-      "url": "https://github.com/nguyentucong2/persona-pilot-mock-saas"
+      "url": "https://github.com/Iceknight7745/Roblox-Seliware"
     }
   },
   {
     "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "Update README.md",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "Create jekyll-gh-pages.yml",
     "tags": [],
     "meta": {
-      "repo": "jgchoti/challenge-collecting-data",
+      "repo": "KelvinMbugii/Portfolio",
       "lang": "",
-      "url": "https://github.com/jgchoti/challenge-collecting-data"
+      "url": "https://github.com/KelvinMbugii/Portfolio"
     }
   },
   {
     "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "update the repository",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "Auto-update",
     "tags": [],
     "meta": {
-      "repo": "zoq0/Stati",
+      "repo": "bober2221/bobriha2221",
       "lang": "",
-      "url": "https://github.com/zoq0/Stati"
+      "url": "https://github.com/bober2221/bobriha2221"
     }
   },
   {
     "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "keeps your girlfriend away",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "fix: unignore build folder for github pages",
     "tags": [],
     "meta": {
-      "repo": "yyds688/green",
+      "repo": "frelok362/algoviz",
       "lang": "",
-      "url": "https://github.com/yyds688/green"
+      "url": "https://github.com/frelok362/algoviz"
     }
   },
   {
     "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "Deploy to GitHub pages",
-    "tags": [],
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "Apply Supabase schema changes Apply the SQL schema changes to the Supabase database.",
+    "tags": [
+      "sql"
+    ],
     "meta": {
-      "repo": "CleberG/cleberg",
+      "repo": "NotKolnay/couch-2-5k",
       "lang": "",
-      "url": "https://github.com/CleberG/cleberg"
+      "url": "https://github.com/NotKolnay/couch-2-5k"
     }
   },
   {
     "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "Update instance-uptime-data to output generated at a8984fb",
+    "timestamp": "2025-06-19T19:01:35+00:00",
+    "text": "use env for variables",
     "tags": [],
     "meta": {
-      "repo": "MorphoCloud/MorphoCloudInstances",
+      "repo": "OpenTideHQ/CoreTide",
       "lang": "",
-      "url": "https://github.com/MorphoCloud/MorphoCloudInstances"
-    }
-  },
-  {
-    "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "changes in the visual section",
-    "tags": [],
-    "meta": {
-      "repo": "HD4V1D/brain",
-      "lang": "",
-      "url": "https://github.com/HD4V1D/brain"
-    }
-  },
-  {
-    "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "Update config_entries_config_flow_handler.md",
-    "tags": [],
-    "meta": {
-      "repo": "HarvsG/developers.home-assistant",
-      "lang": "",
-      "url": "https://github.com/HarvsG/developers.home-assistant"
-    }
-  },
-  {
-    "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "Socios",
-    "tags": [],
-    "meta": {
-      "repo": "obj1-unahur-2025s1/mutual-BLIDZzz",
-      "lang": "",
-      "url": "https://github.com/obj1-unahur-2025s1/mutual-BLIDZzz"
-    }
-  },
-  {
-    "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "Fix biademo for biatemplate (#396) * Fix errors in BIADemo for BIATemplate * Send BIAToolkit_feature to BIATemplate * fix warnings --------- Co-authored-by: Lo\u00efc BURELOUX <loic.bureloux.ext@safrangroup.com>",
-    "tags": [],
-    "meta": {
-      "repo": "BIATeam/BIADemo",
-      "lang": "",
-      "url": "https://github.com/BIATeam/BIADemo"
-    }
-  },
-  {
-    "source": "github",
-    "timestamp": "2025-06-19T14:57:15+00:00",
-    "text": "Automatic update at 2025/06/19 22:57",
-    "tags": [],
-    "meta": {
-      "repo": "TaiwanVtuberData/TaiwanVtuberTrackingData",
-      "lang": "",
-      "url": "https://github.com/TaiwanVtuberData/TaiwanVtuberTrackingData"
+      "url": "https://github.com/OpenTideHQ/CoreTide"
     }
   },
   {
     "source": "stackoverflow",
-    "timestamp": "2025-06-19T15:02:09Z",
-    "text": "What range is the Target in Private Sub Worksheet_SelectionChange(ByVal Target As Range)?",
+    "timestamp": "2025-06-19T16:19:38Z",
+    "text": "oracle and UTC dates",
     "tags": [
-      "excel",
-      "vba"
+      "sql",
+      "oracle-database"
     ],
     "meta": {
       "score": 0,
-      "url": "https://stackoverflow.com/questions/79672270/what-range-is-the-target-in-private-sub-worksheet-selectionchangebyval-target-a"
+      "url": "https://stackoverflow.com/questions/79672364/oracle-and-utc-dates"
     }
   },
   {
     "source": "stackoverflow",
-    "timestamp": "2025-06-19T15:01:59Z",
-    "text": "VBA Excel- Spell Check on Merged Cells",
-    "tags": [
-      "excel",
-      "vba",
-      "spell-checking",
-      "array-merge"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/79672269/vba-excel-spell-check-on-merged-cells"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T05:25:27Z",
-    "text": "How can I insert an image with a clickable hyperlink on the first page of a PDF using Python?",
-    "tags": [
-      "python",
-      "pypdf",
-      "reportlab"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/79671560/how-can-i-insert-an-image-with-a-clickable-hyperlink-on-the-first-page-of-a-pdf"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2023-02-24T16:41:09Z",
-    "text": "How do I add system_platform specifiers to pyproject.toml?",
-    "tags": [
-      "python"
-    ],
-    "meta": {
-      "score": 1,
-      "url": "https://stackoverflow.com/questions/75559166/how-do-i-add-system-platform-specifiers-to-pyproject-toml"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-18T21:03:16Z",
-    "text": "Force Scrollbar to Appear For Mac Sequoia Users",
-    "tags": [
-      "javascript",
-      "html",
-      "css",
-      "macos",
-      "safari"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/79671290/force-scrollbar-to-appear-for-mac-sequoia-users"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2024-02-11T21:24:14Z",
-    "text": "Nextjs with react-leaflet - SSR, webpack | window not defined, icon not found",
-    "tags": [
-      "webpack",
-      "next.js",
-      "leaflet",
-      "server-side-rendering",
-      "react-leaflet"
-    ],
-    "meta": {
-      "score": 3,
-      "url": "https://stackoverflow.com/questions/77978480/nextjs-with-react-leaflet-ssr-webpack-window-not-defined-icon-not-found"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T14:59:46Z",
-    "text": "CTA button at the nav bar is out of the screen",
-    "tags": [
-      "javascript",
-      "html",
-      "css"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/79672265/cta-button-at-the-nav-bar-is-out-of-the-screen"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T13:05:12Z",
-    "text": "Detecting inflection points/local minima in openCv Python contours objects to differentiate shapes",
-    "tags": [
-      "python",
-      "opencv",
-      "image-processing",
-      "shapes"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/79672095/detecting-inflection-points-local-minima-in-opencv-python-contours-objects-to-di"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2022-01-12T14:49:31Z",
-    "text": "Visual studio 2022 highly used memory",
-    "tags": [
-      "visual-studio",
-      "memory",
-      "blazor"
-    ],
-    "meta": {
-      "score": 56,
-      "url": "https://stackoverflow.com/questions/70683618/visual-studio-2022-highly-used-memory"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2020-05-15T12:46:45Z",
-    "text": "How do I fix &quot;SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.&quot;",
+    "timestamp": "2025-06-19T17:18:51Z",
+    "text": "Is it mandatory to specify the data type of a base class which is declared generic while inheriting?",
     "tags": [
       "java",
-      "libraries"
-    ],
-    "meta": {
-      "score": 20,
-      "url": "https://stackoverflow.com/questions/61819573/how-do-i-fix-slf4j-failed-to-load-class-org-slf4j-impl-staticloggerbinder"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-16T09:53:44Z",
-    "text": "Laravel Modular Monolith custom Exception Handler",
-    "tags": [
-      "php",
-      "laravel",
-      "exception",
-      "modular-monolith"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/79667391/laravel-modular-monolith-custom-exception-handler"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T14:58:29Z",
-    "text": "Who is the founder of the Rajput Kuldevi website?",
-    "tags": [
-      "web"
-    ],
-    "meta": {
-      "score": -3,
-      "url": "https://stackoverflow.com/questions/79672264/who-is-the-founder-of-the-rajput-kuldevi-website"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2015-09-06T22:58:25Z",
-    "text": "How do I support RouteParams on page reload using Angular 2 Dart?",
-    "tags": [
-      "dart",
-      "angular-dart",
-      "angular-routing",
-      "angular"
-    ],
-    "meta": {
-      "score": 13,
-      "url": "https://stackoverflow.com/questions/32429089/how-do-i-support-routeparams-on-page-reload-using-angular-2-dart"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T14:55:21Z",
-    "text": "How to show full autocomplete suggestions in JavaScript",
-    "tags": [
-      "javascript",
-      "autocomplete",
-      "ace-editor"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/79672262/how-to-show-full-autocomplete-suggestions-in-javascript"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T14:57:29Z",
-    "text": "How to debug OpenMP scalabilty",
-    "tags": [
-      "c",
-      "parallel-processing",
-      "openmp",
-      "scalability",
-      "conways-game-of-life"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/79672263/how-to-debug-openmp-scalabilty"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-01-21T17:37:21Z",
-    "text": "SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot; - JDBC Class Path",
-    "tags": [
-      "java",
-      "jdbc",
-      "azure-sql-database",
-      "microsoft-entra-id",
-      "mssql-jdbc"
-    ],
-    "meta": {
-      "score": -1,
-      "url": "https://stackoverflow.com/questions/79375412/slf4j-failed-to-load-class-org-slf4j-impl-staticloggerbinder-jdbc-class-pat"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-01-26T12:59:07Z",
-    "text": "Azure authentication method",
-    "tags": [
-      "azure",
-      "microsoft-entra-id"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/79388562/azure-authentication-method"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2018-12-18T16:25:26Z",
-    "text": "Extracting Data with .selectitem VBA-SAP",
-    "tags": [
-      "excel",
-      "vba",
-      "sap-gui"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/53837261/extracting-data-with-selectitem-vba-sap"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-17T02:03:25Z",
-    "text": "LinqToDB help needed with merge and secondary inserts",
-    "tags": [
-      "c#",
-      ".net-core",
-      "entity-framework-core",
-      "linq2db"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/79668397/linqtodb-help-needed-with-merge-and-secondary-inserts"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2022-12-03T17:09:24Z",
-    "text": "Header and Footer in .NET MAUI",
-    "tags": [
-      "xaml",
-      "maui"
-    ],
-    "meta": {
-      "score": 2,
-      "url": "https://stackoverflow.com/questions/74668855/header-and-footer-in-net-maui"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2012-01-30T17:54:10Z",
-    "text": "Import text file as single character string",
-    "tags": [
-      "r"
-    ],
-    "meta": {
-      "score": 255,
-      "url": "https://stackoverflow.com/questions/9068397/import-text-file-as-single-character-string"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T14:50:45Z",
-    "text": "I&#39;m new to APS and had a devil of time getting basic access - here are some lessons/recommendations",
-    "tags": [
-      "autodesk-forge"
+      "generics",
+      "java-8"
     ],
     "meta": {
       "score": -2,
-      "url": "https://stackoverflow.com/questions/79672258/im-new-to-aps-and-had-a-devil-of-time-getting-basic-access-here-are-some-less"
+      "url": "https://stackoverflow.com/questions/79672424/is-it-mandatory-to-specify-the-data-type-of-a-base-class-which-is-declared-gener"
     }
   },
   {
     "source": "stackoverflow",
-    "timestamp": "2017-10-19T08:36:05Z",
-    "text": "Does Kotlin have an &quot;enumerate&quot; function like Python?",
+    "timestamp": "2020-04-21T08:04:26Z",
+    "text": "How to send very long data in ajax URL?",
     "tags": [
-      "list",
-      "kotlin",
-      "enumerate"
-    ],
-    "meta": {
-      "score": 46,
-      "url": "https://stackoverflow.com/questions/46825787/does-kotlin-have-an-enumerate-function-like-python"
-    }
-  },
-  {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T14:50:11Z",
-    "text": "EXE created using cx_Freeze running well in my machine, but gives error in other machine",
-    "tags": [
-      "python-3.x",
-      "cx-freeze"
+      "javascript",
+      "html",
+      "ajax",
+      "url"
     ],
     "meta": {
       "score": 0,
-      "url": "https://stackoverflow.com/questions/79672257/exe-created-using-cx-freeze-running-well-in-my-machine-but-gives-error-in-other"
+      "url": "https://stackoverflow.com/questions/61338696/how-to-send-very-long-data-in-ajax-url"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T19:05:55Z",
+    "text": "Commenting via REM and :: doesn&#39;t work in batch script",
+    "tags": [
+      "batch-file"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/79672526/commenting-via-rem-and-doesnt-work-in-batch-script"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2015-05-08T12:06:27Z",
+    "text": "Ajax Web site, problems with History and Seo",
+    "tags": [
+      "ajax",
+      "url",
+      "seo",
+      "history"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/30123449/ajax-web-site-problems-with-history-and-seo"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T02:19:06Z",
+    "text": "How do I install Lockbox3 in Delphi 12.3? The GetIt version does not seem to work and the repo doesn&#39;t seem to have a package for the codecs?",
+    "tags": [
+      "delphi",
+      "package",
+      "components",
+      "package-managers",
+      "lockbox-3"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/79671463/how-do-i-install-lockbox3-in-delphi-12-3-the-getit-version-does-not-seem-to-wor"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2017-03-03T09:09:46Z",
+    "text": "Is there a one line - condition check and code execution operator?",
+    "tags": [
+      "c#",
+      "c#-6.0"
+    ],
+    "meta": {
+      "score": 2,
+      "url": "https://stackoverflow.com/questions/42574726/is-there-a-one-line-condition-check-and-code-execution-operator"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-06T03:57:19Z",
+    "text": "Video Form Upload With Preview &amp; Submit html",
+    "tags": [
+      "javascript",
+      "video-upload"
+    ],
+    "meta": {
+      "score": -3,
+      "url": "https://stackoverflow.com/questions/79655387/video-form-upload-with-preview-submit-html"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T19:02:13Z",
+    "text": "Navigation bar title in the same vertical space as the toolbar items in iOS 26?",
+    "tags": [
+      "ios",
+      "swiftui",
+      "uinavigationbar",
+      "ios26",
+      "liquid-glass"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/79672525/navigation-bar-title-in-the-same-vertical-space-as-the-toolbar-items-in-ios-26"
     }
   },
   {
@@ -506,76 +343,458 @@
   },
   {
     "source": "stackoverflow",
-    "timestamp": "2021-04-18T23:34:30Z",
-    "text": "PHP 8 - Enchant not working - Broker returns an empty array",
+    "timestamp": "2025-06-19T08:37:23Z",
+    "text": "Subprocess fails in PyInstaller package",
+    "tags": [
+      "python",
+      "subprocess",
+      "pyinstaller",
+      "modulenotfounderror"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/79671773/subprocess-fails-in-pyinstaller-package"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T19:00:47Z",
+    "text": "Column name in table is specified more than once .NET 4.8 framework error",
+    "tags": [
+      ".net",
+      "entity-framework",
+      ".net-4.8"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/79672524/column-name-in-table-is-specified-more-than-once-net-4-8-framework-error"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2021-04-12T08:09:50Z",
+    "text": "About the maximum recursion error in FastAPI",
+    "tags": [
+      "python",
+      "fastapi",
+      "starlette"
+    ],
+    "meta": {
+      "score": 4,
+      "url": "https://stackoverflow.com/questions/67054759/about-the-maximum-recursion-error-in-fastapi"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2020-03-30T04:44:27Z",
+    "text": "API works in postman but not in react front end",
+    "tags": [
+      "javascript",
+      "node.js",
+      "reactjs",
+      "express",
+      "react-redux"
+    ],
+    "meta": {
+      "score": 3,
+      "url": "https://stackoverflow.com/questions/60924212/api-works-in-postman-but-not-in-react-front-end"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2014-12-21T20:46:50Z",
+    "text": "In Angular, how do you increment a counter in the view?",
+    "tags": [
+      "angularjs",
+      "scope",
+      "angularjs-ng-include"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://stackoverflow.com/questions/27593637/in-angular-how-do-you-increment-a-counter-in-the-view"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2014-04-25T07:10:21Z",
+    "text": "&quot;MAPI_E_FAILONEPROVIDER (0x8004011D)&quot; error message. When i am trying to access an Exchange Server 2013 mailbox by using a MFCMAPI utility.",
+    "tags": [
+      "outlook",
+      "mapi",
+      "exchange-server-2013"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://stackoverflow.com/questions/23286431/mapi-e-failoneprovider-0x8004011d-error-message-when-i-am-trying-to-access"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T08:17:17Z",
+    "text": "Run time error related to main method error",
+    "tags": [
+      "java",
+      "class",
+      "inheritance",
+      "program-entry-point"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/79671742/run-time-error-related-to-main-method-error"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2009-02-19T16:48:47Z",
+    "text": "Complete mail header",
     "tags": [
       "php",
-      "spell-checking",
-      "hunspell",
-      "enchant"
+      "email"
+    ],
+    "meta": {
+      "score": 34,
+      "url": "https://stackoverflow.com/questions/566182/complete-mail-header"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T09:28:15Z",
+    "text": "Setting global parameters and executing a master batch across a list of folders without &quot;press any key to continue&quot;",
+    "tags": [
+      "batch-file"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/79671839/setting-global-parameters-and-executing-a-master-batch-across-a-list-of-folders"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T05:34:57Z",
+    "text": "Fence still in use after wait",
+    "tags": [
+      "vulkan"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/79671573/fence-still-in-use-after-wait"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T18:56:45Z",
+    "text": "Solving Version Conflict using Apache beam with ml transforms library",
+    "tags": [
+      "python",
+      "google-cloud-dataflow",
+      "apache-beam",
+      "google-cloud-vertex-ai",
+      "tensorflow-transform"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/79672522/solving-version-conflict-using-apache-beam-with-ml-transforms-library"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-18T11:54:51Z",
+    "text": "Response.json() listed as both a static and instance method on MDN",
+    "tags": [
+      "javascript"
+    ],
+    "meta": {
+      "score": -4,
+      "url": "https://stackoverflow.com/questions/79670582/response-json-listed-as-both-a-static-and-instance-method-on-mdn"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2019-08-16T20:21:54Z",
+    "text": "Enable CORS for any port on localhost",
+    "tags": [
+      "c#",
+      "asp.net-core"
+    ],
+    "meta": {
+      "score": 56,
+      "url": "https://stackoverflow.com/questions/57530680/enable-cors-for-any-port-on-localhost"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T18:55:59Z",
+    "text": "Node.js: `Cannot find module &#39;json-server&#39;` after clean reinstall and global install on Windows",
+    "tags": [
+      "node.js",
+      "windows",
+      "npm",
+      "json-server"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/79672521/node-js-cannot-find-module-json-server-after-clean-reinstall-and-global-ins"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2013-10-01T11:15:51Z",
+    "text": "Override div with another div",
+    "tags": [
+      "html",
+      "css"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://stackoverflow.com/questions/19114763/override-div-with-another-div"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2015-09-19T04:00:14Z",
+    "text": "Facebook AudienceNetwork loaded failure: No fill, Error Message &quot;No fill&quot;, what is the reason about FaceBook android Advertise?",
+    "tags": [
+      "android",
+      "facebook",
+      "facebook-audience-network"
+    ],
+    "meta": {
+      "score": 16,
+      "url": "https://stackoverflow.com/questions/32664036/facebook-audiencenetwork-loaded-failure-no-fill-error-message-no-fill-what"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T16:25:22Z",
+    "text": "Error in omnet++ when i try to launch the simulation",
+    "tags": [
+      "c++",
+      "sqlite",
+      "omnet++"
+    ],
+    "meta": {
+      "score": -5,
+      "url": "https://stackoverflow.com/questions/79672370/error-in-omnet-when-i-try-to-launch-the-simulation"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T15:51:13Z",
+    "text": "Oracle APEX PL/SQL Unknown Source of Invalid Identifier",
+    "tags": [
+      "sql",
+      "oracle-database",
+      "plsql"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://stackoverflow.com/questions/79672323/oracle-apex-pl-sql-unknown-source-of-invalid-identifier"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2025-06-19T03:43:59Z",
+    "text": "Is there anything I need to configure to use Mui 4 in Next.js 12?",
+    "tags": [
+      "next.js",
+      "material-ui"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://stackoverflow.com/questions/79671495/is-there-anything-i-need-to-configure-to-use-mui-4-in-next-js-12"
+    }
+  },
+  {
+    "source": "stackoverflow",
+    "timestamp": "2020-11-01T17:42:35Z",
+    "text": "How to display the Apple logo on the website by Unicode",
+    "tags": [
+      "css",
+      "fonts"
+    ],
+    "meta": {
+      "score": -1,
+      "url": "https://stackoverflow.com/questions/64634945/how-to-display-the-apple-logo-on-the-website-by-unicode"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T19:05:29Z",
+    "text": "Which DSA Cohort Should I Buy: Chai aur Code vs Sheryians Coding School?",
+    "tags": [
+      "learnprogramming"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lfj59q/which_dsa_cohort_should_i_buy_chai_aur_code_vs/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T19:02:59Z",
+    "text": "Gemini API inconsistent",
+    "tags": [
+      "learnprogramming"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lfj2y1/gemini_api_inconsistent/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T18:20:55Z",
+    "text": "Geolocation api with parcel dev mode.",
+    "tags": [
+      "learnprogramming"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lfi0zq/geolocation_api_with_parcel_dev_mode/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T18:05:35Z",
+    "text": "Looking for recommendations to deploy a Node.js/Express backend and React frontend for free or at low cost with scalability options",
+    "tags": [
+      "learnprogramming"
     ],
     "meta": {
       "score": 2,
-      "url": "https://stackoverflow.com/questions/67154386/php-8-enchant-not-working-broker-returns-an-empty-array"
+      "url": "https://reddit.com/r/learnprogramming/comments/1lfhmu8/looking_for_recommendations_to_deploy_a/"
     }
   },
   {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T04:28:21Z",
-    "text": "Postmark button not working in real world email",
+    "source": "reddit",
+    "timestamp": "2025-06-19T18:02:44Z",
+    "text": "Have they learned COBOL?",
     "tags": [
-      "html",
-      "html-table",
-      "html-email",
-      "postmark"
+      "learnprogramming"
     ],
     "meta": {
       "score": 0,
-      "url": "https://stackoverflow.com/questions/79671520/postmark-button-not-working-in-real-world-email"
+      "url": "https://reddit.com/r/learnprogramming/comments/1lfhk5o/have_they_learned_cobol/"
     }
   },
   {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T14:43:18Z",
-    "text": "Hacked lost account without access and without help from Google",
+    "source": "reddit",
+    "timestamp": "2025-06-19T17:36:40Z",
+    "text": "Beginner question about c++ cross compiling",
     "tags": [
-      "gmail-api",
-      "google-workspace"
+      "learnprogramming"
     ],
     "meta": {
-      "score": -7,
-      "url": "https://stackoverflow.com/questions/79672248/hacked-lost-account-without-access-and-without-help-from-google"
+      "score": 1,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lfgw2h/beginner_question_about_c_cross_compiling/"
     }
   },
   {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T14:47:03Z",
-    "text": "How to fix: cannot start Apache Axis2 standalone server on Windows, console stops printing at &quot;Using AXIS2_HOME ...&quot; and does not continue",
+    "source": "reddit",
+    "timestamp": "2025-06-19T17:10:04Z",
+    "text": "Looking for Unique Final Year BCA Project Ideas (DSA-based, Uncommon, Resume-Boosting)",
     "tags": [
-      "java",
-      "windows",
-      "axis",
-      "apache-axis",
-      "lts"
+      "learnprogramming"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lfg7le/looking_for_unique_final_year_bca_project_ideas/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T17:00:16Z",
+    "text": "Back Again",
+    "tags": [
+      "learnprogramming"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lffyf3/back_again/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T16:47:07Z",
+    "text": "I need some cool project idea!",
+    "tags": [
+      "learnprogramming"
+    ],
+    "meta": {
+      "score": 2,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lffmdy/i_need_some_cool_project_idea/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T16:33:09Z",
+    "text": "Am I really a developer if I don\u2019t know CS fundamentals?",
+    "tags": [
+      "learnprogramming"
+    ],
+    "meta": {
+      "score": 24,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lffa04/am_i_really_a_developer_if_i_dont_know_cs/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T16:12:41Z",
+    "text": "using projects form tutorials in your cv/portfolio",
+    "tags": [
+      "learnprogramming"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lferq5/using_projects_form_tutorials_in_your_cvportfolio/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T15:56:07Z",
+    "text": "What is the best resource to learn full stack Java or Python development with an emphasis on backend?",
+    "tags": [
+      "learnprogramming"
     ],
     "meta": {
       "score": 0,
-      "url": "https://stackoverflow.com/questions/79672254/how-to-fix-cannot-start-apache-axis2-standalone-server-on-windows-console-stop"
+      "url": "https://reddit.com/r/learnprogramming/comments/1lfecsy/what_is_the_best_resource_to_learn_full_stack/"
     }
   },
   {
-    "source": "stackoverflow",
-    "timestamp": "2025-06-19T14:46:46Z",
-    "text": "JAGS Bayesian regression problem on sampling",
+    "source": "reddit",
+    "timestamp": "2025-06-19T15:41:02Z",
+    "text": "Programming from scratch",
     "tags": [
-      "r",
-      "statistics",
-      "bayesian",
-      "jags"
+      "learnprogramming"
     ],
     "meta": {
-      "score": 0,
-      "url": "https://stackoverflow.com/questions/79672253/jags-bayesian-regression-problem-on-sampling"
+      "score": 1,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lfdzef/programming_from_scratch/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T15:20:36Z",
+    "text": "Guidance needed- Beginner at Programming",
+    "tags": [
+      "learnprogramming"
+    ],
+    "meta": {
+      "score": 2,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lfdhbg/guidance_needed_beginner_at_programming/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T15:06:30Z",
+    "text": "[Python] unable to use a module no matter what I do",
+    "tags": [
+      "learnprogramming"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/learnprogramming/comments/1lfd4yv/python_unable_to_use_a_module_no_matter_what_i_do/"
     }
   },
   {
@@ -586,7 +805,7 @@
       "learnprogramming"
     ],
     "meta": {
-      "score": 1,
+      "score": 2,
       "url": "https://reddit.com/r/learnprogramming/comments/1lfceo3/read_the_memory_of_an_app_and_store_it/"
     }
   },
@@ -598,7 +817,7 @@
       "learnprogramming"
     ],
     "meta": {
-      "score": 15,
+      "score": 208,
       "url": "https://reddit.com/r/learnprogramming/comments/1lfc8oo/these_5_small_python_projects_actually_help_you/"
     }
   },
@@ -646,7 +865,7 @@
       "learnprogramming"
     ],
     "meta": {
-      "score": 9,
+      "score": 12,
       "url": "https://reddit.com/r/learnprogramming/comments/1lf9cwi/is_github_a_good_site_for_beginners/"
     }
   },
@@ -658,7 +877,7 @@
       "learnprogramming"
     ],
     "meta": {
-      "score": 2,
+      "score": 0,
       "url": "https://reddit.com/r/learnprogramming/comments/1lf99ey/junior_dev_for_almost_2_years_with_possible_adhd/"
     }
   },
@@ -700,182 +919,14 @@
   },
   {
     "source": "reddit",
-    "timestamp": "2025-06-19T11:06:33Z",
-    "text": "Reading Documentation is really dry to me.",
+    "timestamp": "2025-06-19T17:14:50Z",
+    "text": "Question Regarding Gemini API Access to Google Drive Files",
     "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 2,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf81gk/reading_documentation_is_really_dry_to_me/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T11:01:13Z",
-    "text": "Most tutorials teach you how to write code. But few teach you how to read it.",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 112,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf7y7z/most_tutorials_teach_you_how_to_write_code_but/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T10:38:09Z",
-    "text": "Data Structures in Python",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 3,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf7kcj/data_structures_in_python/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T10:31:00Z",
-    "text": "Anyone know about EPM (EDMCS)",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 1,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf7gcb/anyone_know_about_epm_edmcs/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T09:03:02Z",
-    "text": "Why am I getting conflicts when creating a second pull request to the same branch?",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 2,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf64it/why_am_i_getting_conflicts_when_creating_a_second/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T08:51:14Z",
-    "text": "Looking for friends who enjoy coding and tech stuff",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 5,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf5y6t/looking_for_friends_who_enjoy_coding_and_tech/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T08:39:55Z",
-    "text": "Road Map for Data Structures and Algorithm",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 1,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf5s4p/road_map_for_data_structures_and_algorithm/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T08:39:08Z",
-    "text": "Confused in choosing AI or Cybersecurity",
-    "tags": [
-      "learnprogramming"
+      "AskProgramming"
     ],
     "meta": {
       "score": 0,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf5rpj/confused_in_choosing_ai_or_cybersecurity/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T08:36:49Z",
-    "text": "Bachelor Degree : Computer Science or Data Science?",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 9,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf5qif/bachelor_degree_computer_science_or_data_science/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T08:26:08Z",
-    "text": "Spring-React: How do I learn to combine front-end with back-end?",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 3,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf5kwl/springreact_how_do_i_learn_to_combine_frontend/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T08:23:15Z",
-    "text": "need book suggestions",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 1,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf5jbe/need_book_suggestions/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T08:03:01Z",
-    "text": "Got an interview for an IT job with no experience",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf58fx/got_an_interview_for_an_it_job_with_no_experience/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T07:27:40Z",
-    "text": "How to quickly transfer lines of code from one ROM to another? (Game Hacking)",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf4p9b/how_to_quickly_transfer_lines_of_code_from_one/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T07:18:54Z",
-    "text": "Hopeless at the planning stage",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 1,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf4kfb/hopeless_at_the_planning_stage/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T06:29:15Z",
-    "text": "Need a suggestion for New Grad applying for DS role entry level",
-    "tags": [
-      "learnprogramming"
-    ],
-    "meta": {
-      "score": 2,
-      "url": "https://reddit.com/r/learnprogramming/comments/1lf3si1/need_a_suggestion_for_new_grad_applying_for_ds/"
+      "url": "https://reddit.com/r/AskProgramming/comments/1lfgc0p/question_regarding_gemini_api_access_to_google/"
     }
   },
   {
@@ -886,7 +937,7 @@
       "AskProgramming"
     ],
     "meta": {
-      "score": 1,
+      "score": 2,
       "url": "https://reddit.com/r/AskProgramming/comments/1lfc9bs/transitioning_from_frontend_to_backend/"
     }
   },
@@ -898,7 +949,7 @@
       "AskProgramming"
     ],
     "meta": {
-      "score": 0,
+      "score": 4,
       "url": "https://reddit.com/r/AskProgramming/comments/1lfby30/how_do_i_learn_the_why_and_how_of_programming/"
     }
   },
@@ -946,7 +997,7 @@
       "AskProgramming"
     ],
     "meta": {
-      "score": 1,
+      "score": 0,
       "url": "https://reddit.com/r/AskProgramming/comments/1lf9e3c/cant_decide_on_rust_or_c/"
     }
   },
@@ -994,7 +1045,7 @@
       "AskProgramming"
     ],
     "meta": {
-      "score": 2,
+      "score": 0,
       "url": "https://reddit.com/r/AskProgramming/comments/1lf4bwl/which_language_to_study_after_python/"
     }
   },
@@ -1018,7 +1069,7 @@
       "AskProgramming"
     ],
     "meta": {
-      "score": 1,
+      "score": 2,
       "url": "https://reddit.com/r/AskProgramming/comments/1levi1l/how_do_i_monetise_my_skills/"
     }
   },
@@ -1114,7 +1165,7 @@
       "AskProgramming"
     ],
     "meta": {
-      "score": 6,
+      "score": 5,
       "url": "https://reddit.com/r/AskProgramming/comments/1leip9k/getting_started_with_gpu_programming_with_no/"
     }
   },
@@ -1168,14 +1219,158 @@
   },
   {
     "source": "reddit",
-    "timestamp": "2025-06-18T08:03:00Z",
-    "text": "Should I generate a separate unique number for each animal if the database ID is already unique?",
+    "timestamp": "2025-06-19T19:06:27Z",
+    "text": "Looking for Coding Prep Buddy + System design (EST, US)",
     "tags": [
-      "AskProgramming"
+      "cscareerquestions"
     ],
     "meta": {
-      "score": 3,
-      "url": "https://reddit.com/r/AskProgramming/comments/1lebhj3/should_i_generate_a_separate_unique_number_for/"
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lfj641/looking_for_coding_prep_buddy_system_design_est_us/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T18:56:15Z",
+    "text": "Is the Karat 'redo' worth it in either case?",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lfiwpu/is_the_karat_redo_worth_it_in_either_case/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T18:19:07Z",
+    "text": "Has anyone ever given a Junior DevOps Engineer intw, what did they ask?",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lfhzce/has_anyone_ever_given_a_junior_devops_engineer/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T18:13:37Z",
+    "text": "What are my chances in CS industry given a non-traditional path?",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lfhudx/what_are_my_chances_in_cs_industry_given_a/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T17:56:12Z",
+    "text": "What is the best thing I can do right now as a early career SWE at a heritage defense company to uplevel into a better SWE job.",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lfhe2p/what_is_the_best_thing_i_can_do_right_now_as_a/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T17:53:43Z",
+    "text": "The company I work for is out of money and is seeking loans to pay employees. How concerned should I be?",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 5,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lfhbub/the_company_i_work_for_is_out_of_money_and_is/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T17:39:47Z",
+    "text": "What should my plan be?",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lfgyvl/what_should_my_plan_be/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T17:31:12Z",
+    "text": "Learn to code as useless as a face tat",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 0,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lfgr4s/learn_to_code_as_useless_as_a_face_tat/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T17:24:36Z",
+    "text": "Does Master's Research Matter?",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lfgkzk/does_masters_research_matter/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T17:14:58Z",
+    "text": "Grad school necessary for ML/AI?",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lfgc5w/grad_school_necessary_for_mlai/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T16:50:21Z",
+    "text": "How am i supposed to get an entry job that requires 2 years of experience?",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lffpap/how_am_i_supposed_to_get_an_entry_job_that/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T16:49:53Z",
+    "text": "Remote part-time work",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 1,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lffovr/remote_parttime_work/"
+    }
+  },
+  {
+    "source": "reddit",
+    "timestamp": "2025-06-19T15:52:42Z",
+    "text": "Feeling lost at new internship",
+    "tags": [
+      "cscareerquestions"
+    ],
+    "meta": {
+      "score": 8,
+      "url": "https://reddit.com/r/cscareerquestions/comments/1lfe9sn/feeling_lost_at_new_internship/"
     }
   },
   {
@@ -1186,7 +1381,7 @@
       "cscareerquestions"
     ],
     "meta": {
-      "score": 1,
+      "score": 2,
       "url": "https://reddit.com/r/cscareerquestions/comments/1lfcx3m/configuration_specialist_role_for_a_junior/"
     }
   },
@@ -1198,7 +1393,7 @@
       "cscareerquestions"
     ],
     "meta": {
-      "score": 1,
+      "score": 2,
       "url": "https://reddit.com/r/cscareerquestions/comments/1lfc938/graduating_in_december_when_does_the_recruitment/"
     }
   },
@@ -1210,7 +1405,7 @@
       "cscareerquestions"
     ],
     "meta": {
-      "score": 11,
+      "score": 18,
       "url": "https://reddit.com/r/cscareerquestions/comments/1lfc8th/why_is_algo_testing_suddenly_so_popular_if_its/"
     }
   },
@@ -1294,7 +1489,7 @@
       "cscareerquestions"
     ],
     "meta": {
-      "score": 2,
+      "score": 3,
       "url": "https://reddit.com/r/cscareerquestions/comments/1lf81tm/how_to_survive_in_tech_industry_as_someone/"
     }
   },
@@ -1320,162 +1515,6 @@
     "meta": {
       "score": 0,
       "url": "https://reddit.com/r/cscareerquestions/comments/1lf7ifb/how_was_your_experience_with_hr_and_recruiters_in/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T09:56:32Z",
-    "text": "Confused in choosing AI or cybersecurity",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 3,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lf6wvm/confused_in_choosing_ai_or_cybersecurity/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T08:52:44Z",
-    "text": "Left a toxic workplace as a fresher without any other offer.",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lf5yyd/left_a_toxic_workplace_as_a_fresher_without_any/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T07:00:22Z",
-    "text": "Interview Discussion - June 19, 2025",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 1,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lf4a0a/interview_discussion_june_19_2025/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T06:59:23Z",
-    "text": "Need help figuring out if I was rejected from Walmart",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 99,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lf49f0/need_help_figuring_out_if_i_was_rejected_from/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T06:02:56Z",
-    "text": "Does wearing a suit bring success?",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 11,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lf3dqv/does_wearing_a_suit_bring_success/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T05:16:39Z",
-    "text": "Need Team Advice",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 2,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lf2mxw/need_team_advice/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T05:09:00Z",
-    "text": "Want advice from people in the industry",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 1,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lf2i71/want_advice_from_people_in_the_industry/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T04:35:11Z",
-    "text": "In the era of LLMs, take home assignments are the future",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lf1xk3/in_the_era_of_llms_take_home_assignments_are_the/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T04:05:52Z",
-    "text": "Advice with Manager at Rainforest",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 51,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lf1fa2/advice_with_manager_at_rainforest/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T03:46:49Z",
-    "text": "Started a new job and realized that they lied to me about WFH",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 231,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lf12px/started_a_new_job_and_realized_that_they_lied_to/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T03:13:55Z",
-    "text": "I responded to a recruiter a week late, am I cooked?",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 0,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lf0gq7/i_responded_to_a_recruiter_a_week_late_am_i_cooked/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T01:31:35Z",
-    "text": "Did you ever have a do-nothing job?",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 95,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1leyfsi/did_you_ever_have_a_donothing_job/"
-    }
-  },
-  {
-    "source": "reddit",
-    "timestamp": "2025-06-19T01:08:02Z",
-    "text": "Should I pivot out of the compiler engineer career track?",
-    "tags": [
-      "cscareerquestions"
-    ],
-    "meta": {
-      "score": 6,
-      "url": "https://reddit.com/r/cscareerquestions/comments/1lexyuj/should_i_pivot_out_of_the_compiler_engineer/"
     }
   }
 ]

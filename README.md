@@ -6,6 +6,23 @@ Welcome to the Collective Brain of Tech Students project! This innovative platfo
 
 Our project serves as a comprehensive trend analysis tool that helps students and educators stay updated with the latest developments in technology. By collecting and analyzing data from popular tech platforms, we provide valuable insights into emerging technologies, programming languages, and developer discussions.
 
+## Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](Screenshots/Screenshot%202025-06-20%20at%2012.37.24%20AM.png)
+
+### Trend Analysis
+![Trend Analysis](Screenshots/Screenshot%202025-06-20%20at%2012.37.36%20AM.png)
+
+### Data Visualization
+![Data Visualization](Screenshots/Figure_2.png)
+
+### Real-time Updates
+![Real-time Updates](Screenshots/Screenshot%202025-06-20%20at%201.09.25%20AM.png)
+
+### Platform Integration
+![Platform Integration](Screenshots/a0023361e2c4dd17f688e2311fbf95bce8ac8c881b4b263622e27731.png)
+
 ## Key Features
 
 1. **Multi-Platform Data Collection**
