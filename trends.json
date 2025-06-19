@@ -2,83 +2,83 @@
   "top_keywords": [
     [
       "update",
-      2.9558812117357296
-    ],
-    [
-      "job",
-      2.7590611770425673
-    ],
-    [
-      "ai",
-      2.2787787529139525
+      2.897714148383488
     ],
     [
       "need",
-      2.2226799651286484
+      2.5854355849236055
+    ],
+    [
+      "job",
+      2.5250320210168185
+    ],
+    [
+      "ai",
+      2.282717594722782
     ],
     [
       "advice",
-      2.213557328398518
+      2.233165228413105
     ],
     [
       "experience",
-      2.096198010651506
-    ],
-    [
-      "readme",
-      2.0951645217591754
+      2.0902860143412627
     ],
     [
       "python",
-      1.8980889278082964
+      2.0604284086835047
     ],
     [
       "data",
-      1.851880954758464
+      1.8681807427825363
     ],
     [
-      "md",
-      1.7926314023831345
-    ],
-    [
-      "using",
-      1.7788664625246349
-    ],
-    [
-      "github",
-      1.675006356321195
-    ],
-    [
-      "interview",
-      1.555587851803134
-    ],
-    [
-      "use",
-      1.5383314964316028
+      "repository",
+      1.5450195243619986
     ],
     [
       "college",
-      1.5381589023564581
+      1.539547592571268
     ],
     [
-      "day",
-      1.4805957884394894
+      "interview",
+      1.5362214686223352
     ],
     [
-      "coding",
-      1.4452822313540283
+      "adding",
+      1.5158623327694976
+    ],
+    [
+      "add",
+      1.46317821576326
+    ],
+    [
+      "structures",
+      1.3811104160212073
+    ],
+    [
+      "owners_aliases",
+      1.3627406687378938
+    ],
+    [
+      "updated",
+      1.3556020557007507
     ],
     [
       "help",
-      1.3470409301585522
+      1.3420051000693425
     ],
     [
       "industry",
-      1.3241175411672845
+      1.3329031112178873
     ],
     [
       "looking",
-      1.3115002846677395
+      1.3093510464542188
+    ],
+    [
+      "app",
+      1.3055492601660357
     ]
   ],
   "top_entities": [],
@@ -96,55 +96,111 @@
       25
     ],
     [
-      "javascript",
-      4
-    ],
-    [
       "python",
-      4
-    ],
-    [
-      "php",
-      3
-    ],
-    [
-      "swift",
-      3
+      6
     ],
     [
       "c#",
       2
     ],
     [
-      "java",
+      "excel",
       2
     ],
     [
-      "android",
+      "multithreading",
       2
     ],
     [
-      "html",
+      "machine-learning",
       2
     ],
     [
-      "opencv",
+      "swift",
       2
     ],
     [
-      "ios",
+      "computer-vision",
       2
     ],
     [
-      "events",
+      "javascript",
+      2
+    ],
+    [
+      "regex",
       1
     ],
     [
-      "arguments",
+      "ansible",
       1
     ],
     [
-      "solidity",
+      "helidon",
+      1
+    ],
+    [
+      "excel-dna",
+      1
+    ],
+    [
+      "sql",
+      1
+    ],
+    [
+      "sql-server",
+      1
+    ],
+    [
+      "c",
+      1
+    ],
+    [
+      "gcc",
+      1
+    ],
+    [
+      "struct",
+      1
+    ],
+    [
+      "python-3.x",
+      1
+    ],
+    [
+      "tkinter",
+      1
+    ],
+    [
+      "http-proxy",
+      1
+    ],
+    [
+      "powershell",
+      1
+    ],
+    [
+      "istio",
+      1
+    ],
+    [
+      "failover",
+      1
+    ],
+    [
+      "dicom",
+      1
+    ],
+    [
+      "scikit-learn",
+      1
+    ],
+    [
+      "reporting-services",
+      1
+    ],
+    [
+      "expression",
       1
     ],
     [
@@ -152,51 +208,75 @@
       1
     ],
     [
-      "debugging",
+      "makefile",
       1
     ],
     [
-      "encryption",
+      "build",
       1
     ],
     [
-      "dll",
+      "del",
       1
     ],
     [
-      "dllimport",
+      "ios",
       1
     ],
     [
-      "asp.net",
+      "swiftui",
       1
     ],
     [
-      "puppeteer",
+      "opencv",
       1
     ],
     [
-      "puppeteer-sharp",
+      "user-interface",
       1
     ],
     [
-      "referrer-policy",
+      "flet",
       1
     ],
     [
-      "graph",
+      "android",
       1
     ],
     [
-      "depth-first-search",
+      "android-studio",
       1
     ],
     [
-      "excel",
+      "deep-learning",
       1
     ],
     [
-      "string",
+      "pytorch",
+      1
+    ],
+    [
+      "spring-boot",
+      1
+    ],
+    [
+      "maven",
+      1
+    ],
+    [
+      "jacoco",
+      1
+    ],
+    [
+      "java-21",
+      1
+    ],
+    [
+      "swift-concurrency",
+      1
+    ],
+    [
+      "swift6",
       1
     ],
     [
@@ -204,139 +284,35 @@
       1
     ],
     [
-      "text-extraction",
-      1
-    ],
-    [
-      "boolean",
-      1
-    ],
-    [
-      "ms-word",
-      1
-    ],
-    [
-      "vsto",
-      1
-    ],
-    [
-      "office-addins",
-      1
-    ],
-    [
-      "word-addins",
-      1
-    ],
-    [
-      "cmd",
-      1
-    ],
-    [
-      "sdk",
-      1
-    ],
-    [
-      "adb",
-      1
-    ],
-    [
-      "backup",
-      1
-    ],
-    [
       "docker",
       1
     ],
     [
-      "apache-spark",
+      "object-detection",
       1
     ],
     [
-      "pyspark",
+      "yolov11",
       1
     ],
     [
-      "airflow",
+      "python-typing",
       1
     ],
     [
-      "minio",
+      "mypy",
       1
     ],
     [
-      "coil",
+      "logging",
       1
     ],
     [
-      "css",
+      "pytest",
       1
     ],
     [
-      "blur",
-      1
-    ],
-    [
-      "github-actions",
-      1
-    ],
-    [
-      "smtp",
-      1
-    ],
-    [
-      "prestashop",
-      1
-    ],
-    [
-      "prestashop-1.6",
-      1
-    ],
-    [
-      "resend.com",
-      1
-    ],
-    [
-      "class",
-      1
-    ],
-    [
-      "inheritance",
-      1
-    ],
-    [
-      "program-entry-point",
-      1
-    ],
-    [
-      "macos",
-      1
-    ],
-    [
-      "apache",
-      1
-    ],
-    [
-      "mamp",
-      1
-    ],
-    [
-      "saxon",
-      1
-    ],
-    [
-      "semantic-markup",
-      1
-    ],
-    [
-      "node.js",
-      1
-    ],
-    [
-      "express",
-      1
-    ],
-    [
-      "webserver",
+      "hibernate",
       1
     ],
     [
@@ -352,23 +328,19 @@
       1
     ],
     [
-      "c++",
+      "node.js",
       1
     ],
     [
-      "image-processing",
+      "mongodb",
       1
     ],
     [
-      "colorfilter",
+      "redis",
       1
     ],
     [
-      "demosaicing",
-      1
-    ],
-    [
-      "cvat",
+      "cordova",
       1
     ],
     [
@@ -376,149 +348,101 @@
       1
     ],
     [
-      "discord",
+      "persistence",
       1
     ],
     [
-      "flet",
+      "ionic-framework",
       1
     ],
     [
-      "firebase",
+      ".net",
       1
     ],
     [
-      "push-notification",
+      "system.transactions",
       1
     ],
     [
-      "testflight",
-      1
-    ],
-    [
-      "highcharts",
-      1
-    ],
-    [
-      "diagram",
-      1
-    ],
-    [
-      "qt",
-      1
-    ],
-    [
-      "pyqt",
-      1
-    ],
-    [
-      "pyside",
-      1
-    ],
-    [
-      "fastapi",
-      1
-    ],
-    [
-      "pydantic",
-      1
-    ],
-    [
-      "ios-simulator",
-      1
-    ],
-    [
-      "xctest",
-      1
-    ],
-    [
-      "laravel",
-      1
-    ],
-    [
-      "download",
-      1
-    ],
-    [
-      "zip",
-      1
-    ],
-    [
-      "ibm-watson",
-      1
-    ],
-    [
-      "watson-assistant",
-      1
-    ],
-    [
-      "uibezierpath",
+      "grafana",
       1
     ]
   ],
   "top_repos": [
     [
-      "Kisha-Webb1980sd/Kisha-Webb1980sd-randomCatFacts",
+      "DavidLacombe46/website",
+      3
+    ],
+    [
+      "AqueductHub/pyaqueduct",
+      2
+    ],
+    [
+      "Valdo-OPS/ProyectosDeCV",
+      2
+    ],
+    [
+      "oderman-group/app-sintia",
+      2
+    ],
+    [
+      "danlsn/python-github-action-template",
       1
     ],
     [
-      "Jitendraunatti/fancode",
+      "BANGSULSTAR/thumbnail",
       1
     ],
     [
-      "chantibabusambangi/image-caption-generator1",
+      "cloudposse/packages",
       1
     ],
     [
-      "Haripriya094/ETL_orch_end_to_end",
+      "Gab2601/planego",
       1
     ],
     [
-      "Shadi-ibr7/compet_b3",
+      "Antonio-Velasco/azure-function-v2-template",
       1
     ],
     [
-      "Chiemi320/fit-match",
+      "Bill0319/nutrition",
       1
     ],
     [
-      "fromjasonstuff/frmjsn-microblog",
+      "dantypas3/elAPI_Plugins",
       1
     ],
     [
-      "willy901314/willy901314",
+      "flowerpowertulane/flower_public",
       1
     ],
     [
-      "Condition00/recog",
+      "moutonh/Pioneer",
       1
     ],
     [
-      "op1van/op1van-web",
+      "arvind-skg/To-Do-List",
       1
     ],
     [
-      "kMGxD/kMGxD",
+      "red-hat-data-services/rhods-operator",
       1
     ],
     [
-      "max-cx/openshift-docs",
+      "Fluff5/10",
       1
     ],
     [
-      "swisterska/clinic-project",
+      "Vsonneveld/foroxity-genres",
       1
     ],
     [
-      "abhisheksakibanda/abhisheksakibanda",
+      "odoo/o-spreadsheet",
       1
     ],
     [
-      "cascobayesian/Local.Politics",
-      1
-    ],
-    [
-      "visneviySecret/cosmo-boy",
+      "penneyqafa/daily_task",
       1
     ],
     [
@@ -526,94 +450,90 @@
       1
     ],
     [
-      "Ozzymara/pyramidescape",
-      1
-    ],
-    [
-      "liuliwa1997/test",
+      "Automattic/jetpack-subscribers-dashboard",
       1
     ]
   ],
   "keybert_keywords": [
     [
-      "update1",
-      0.3606
+      "de_core_news_sm",
+      0.411
     ],
     [
-      "puppeteer",
-      0.3279
+      "devops",
+      0.3806
     ],
     [
-      "trigger",
-      0.3178
+      "cloudpossebot",
+      0.3783
+    ],
+    [
+      "updated",
+      0.3672
+    ],
+    [
+      "kubectl",
+      0.3567
+    ],
+    [
+      "updating",
+      0.3565
     ],
     [
       "update",
-      0.2993
+      0.3236
     ],
     [
-      "start_pipeline_time",
-      0.2787
+      "repository",
+      0.3201
     ],
     [
-      "de_core_news_sm",
-      0.2773
+      "merged",
+      0.3195
     ],
     [
-      "tools",
-      0.2641
+      "repo",
+      0.3017
     ],
     [
-      "toolkit",
-      0.26
-    ],
-    [
-      "extract",
-      0.257
+      "dev",
+      0.2994
     ],
     [
       "github",
-      0.2547
-    ],
-    [
-      "delay",
-      0.2499
-    ],
-    [
-      "event",
-      0.2469
-    ],
-    [
-      "d32587f174a1ac5581fd1d35a22c16261fcb2c79",
-      0.2436
-    ],
-    [
-      "scrape",
-      0.2405
-    ],
-    [
-      "deploy",
-      0.2377
+      0.2875
     ],
     [
       "patch",
-      0.2356
+      0.2842
     ],
     [
-      "details",
-      0.2331
+      "fix",
+      0.2836
     ],
     [
-      "day",
-      0.2327
+      "latest",
+      0.2788
     ],
     [
-      "deleting",
-      0.2325
+      "completed",
+      0.275
     ],
     [
-      "bot",
-      0.2307
+      "merge",
+      0.2715
+    ],
+    [
+      "etl_meteo",
+      0.2672
+    ],
+    [
+      "version",
+      0.2629
+    ],
+    [
+      "ansible",
+      0.2606
     ]
   ]
 }
