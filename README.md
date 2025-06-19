@@ -10,7 +10,7 @@ Our project serves as a comprehensive trend analysis tool that helps students an
 
 ### Main Dashboard
 ![Dashboard Overview](Screenshots/dashboard.png)
-*The main dashboard interface with GitHub-themed styling and real-time trend analysis*
+*The main dashboard interface with styling and real-time trend analysis*
 
 ### Trending Keywords and Topics
 ![Trending Keywords](Screenshots/trending_keywords.png)
