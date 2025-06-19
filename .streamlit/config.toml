@@ -1,3 +1,10 @@
 [server]
 port = 8501
-enableCORS = false 
+enableCORS = false
+
+[theme]
+primaryColor = "#2ea44f"  # GitHub green
+backgroundColor = "#ffffff"  # White
+secondaryBackgroundColor = "#f6f8fa"  # GitHub secondary background
+textColor = "#24292e"  # GitHub text color
+font = "sans-serif" 

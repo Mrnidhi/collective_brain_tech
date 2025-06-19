@@ -1,23 +1,80 @@
 import streamlit as st
 import pandas as pd
+from datetime import datetime, timedelta
 
 def sidebar_filters(df: pd.DataFrame):
-    st.sidebar.header('Filters')
-    # Date range filter
-    if 'timestamp' in df.columns:
-        df['timestamp'] = pd.to_datetime(df['timestamp'])
-        # Make timestamps timezone-naive for comparison
-        if hasattr(df['timestamp'].dt, 'tz') and df['timestamp'].dt.tz is not None:
-            df['timestamp'] = df['timestamp'].dt.tz_localize(None)
-        min_date, max_date = df['timestamp'].min(), df['timestamp'].max()
-        date_range = st.sidebar.date_input('Date range', [min_date, max_date])
-        if len(date_range) == 2:
-            df = df[(df['timestamp'] >= pd.to_datetime(date_range[0])) & (df['timestamp'] <= pd.to_datetime(date_range[1]))]
-    # Platform checkboxes
-    platforms = st.sidebar.multiselect('Platforms', ['github', 'stackoverflow', 'reddit'], default=['github', 'stackoverflow', 'reddit'])
-    df = df[df['source'].isin(platforms)]
-    # View by dropdown
-    view_by = st.sidebar.selectbox('View by', ['tags', 'keywords', 'repos', 'entities'], format_func=lambda x: {'tags':'🔧 Tags','keywords':'🏷️ Keywords','repos':'📁 Repos','entities':'🧠 Named Entities'}[x])
-    # Top N slider
-    top_n = st.sidebar.slider('Top N', 5, 30, 10)
-    return {'filtered_df': df, 'platforms': platforms, 'view_by': view_by, 'top_n': top_n} 
+    st.sidebar.markdown("---")
+    st.sidebar.subheader("Data Filters")
+    
+    # Platform selection
+    platforms = st.sidebar.multiselect(
+        "Platforms",
+        options=['github', 'stackoverflow', 'reddit'],
+        default=['github', 'stackoverflow', 'reddit'],
+        format_func=lambda x: {
+            'github': '🐙 GitHub',
+            'stackoverflow': '💬 Stack Overflow',
+            'reddit': '👽 Reddit'
+        }[x]
+    )
+    
+    # Date range
+    st.sidebar.markdown("##### Time Range")
+    
+    # Calculate default date range (last 7 days)
+    end_date = df['timestamp'].max().date()
+    start_date = end_date - timedelta(days=7)
+    
+    # Date inputs
+    col1, col2 = st.sidebar.columns(2)
+    with col1:
+        start = st.date_input("From", value=start_date, max_value=end_date)
+    with col2:
+        end = st.date_input("To", value=end_date, min_value=start)
+    
+    # View options
+    st.sidebar.markdown("##### View Options")
+    
+    # Number of items to show
+    top_n = st.sidebar.slider(
+        "Items to show",
+        min_value=5,
+        max_value=50,
+        value=10,
+        step=5
+    )
+    
+    # Sort options
+    view_by = st.sidebar.selectbox(
+        "Sort by",
+        options=['recent', 'popular', 'trending'],
+        format_func=lambda x: {
+            'recent': '📅 Most Recent',
+            'popular': '🔥 Most Popular',
+            'trending': '📈 Trending'
+        }[x]
+    )
+    
+    # Apply filters
+    mask = (
+        df['source'].isin(platforms) &
+        (pd.to_datetime(df['timestamp']).dt.date >= start) &
+        (pd.to_datetime(df['timestamp']).dt.date <= end)
+    )
+    filtered_df = df[mask].copy()
+    
+    # Sort data
+    if view_by == 'recent':
+        filtered_df = filtered_df.sort_values('timestamp', ascending=False)
+    elif view_by == 'popular':
+        filtered_df = filtered_df.sort_values('score', ascending=False)
+    else:  # trending
+        filtered_df = filtered_df.sort_values(['timestamp', 'score'], ascending=[False, False])
+    
+    return {
+        'filtered_df': filtered_df,
+        'platforms': platforms,
+        'view_by': view_by,
+        'top_n': top_n,
+        'date_range': (start, end)
+    } 

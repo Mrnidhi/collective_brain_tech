@@ -12,7 +12,8 @@ The central interface that:
 - Includes real-time data refresh capabilities
 - Auto-refreshes every 5 minutes
 
-![Main Dashboard](../Screenshots/Screenshot%202025-06-20%20at%2012.37.24%20AM.png)
+![Main Dashboard](../Screenshots/dashboard.png)
+*Clean, GitHub-themed interface with intuitive navigation*
 
 ### 2. Chart Components (`charts.py`)
 Various visualization types:
@@ -21,7 +22,8 @@ Various visualization types:
 - **Line Charts**: Show trends over time
 - **Data Tables**: Display detailed post/discussion information
 
-![Data Visualization](../Screenshots/Figure_2.png)
+![Trending Keywords](../Screenshots/trending_keywords.png)
+*Interactive data visualization with GitHub-style color scheme*
 
 ### 3. Filter System (`filters.py`)
 Data filtering capabilities:
@@ -30,23 +32,28 @@ Data filtering capabilities:
 - Top N results selection
 - View type selection (by score, date, etc.)
 
-![Filter System](../Screenshots/Screenshot%202025-06-20%20at%2012.37.36%20AM.png)
+![Top Tags](../Screenshots/top_tags.png)
+*Advanced filtering and sorting capabilities*
 
-### 4. Alert System (`alerts.py`)
-Basic alert display:
-- Shows trend alerts in the sidebar
-- Displays important notifications
-- Integrates with the insights engine
+### 4. Discussion Analysis
+Platform-specific insights:
+- Detailed post analysis
+- User engagement metrics
+- Cross-platform correlations
+- Temporal patterns
 
-![Alert System](../Screenshots/Screenshot%202025-06-20%20at%201.09.25%20AM.png)
+![Discussion Analysis](../Screenshots/discussion%20pages.png)
+*In-depth analysis of discussions across platforms*
 
-### 5. Data Loading (`load_data.py`)
-Efficient data management:
-- Loads data from JSON files
-- Handles data caching
-- Manages data refresh
+### 5. Trend Analysis
+Comprehensive trend tracking:
+- Real-time trend detection
+- Historical comparisons
+- Pattern recognition
+- Predictive insights
 
-![Platform Integration](../Screenshots/a0023361e2c4dd17f688e2311fbf95bce8ac8c881b4b263622e27731.png)
+![Trend Analysis](../Screenshots/trend.png)
+*Advanced trend analysis with temporal visualization*
 
 ## How to Use
 

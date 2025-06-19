@@ -8,20 +8,25 @@ Our project serves as a comprehensive trend analysis tool that helps students an
 
 ## Screenshots
 
-### Dashboard Overview
-![Dashboard Overview](Screenshots/Screenshot%202025-06-20%20at%2012.37.24%20AM.png)
+### Main Dashboard
+![Dashboard Overview](Screenshots/dashboard.png)
+*The main dashboard interface with GitHub-themed styling and real-time trend analysis*
+
+### Trending Keywords and Topics
+![Trending Keywords](Screenshots/trending_keywords.png)
+*Interactive visualization of trending technology topics and keywords*
+
+### Top Tags Analysis
+![Top Tags](Screenshots/top_tags.png)
+*Analysis of most frequently used tags across platforms*
+
+### Discussion Pages
+![Discussion Analysis](Screenshots/discussion%20pages.png)
+*Platform-specific discussion analysis and insights*
 
 ### Trend Analysis
-![Trend Analysis](Screenshots/Screenshot%202025-06-20%20at%2012.37.36%20AM.png)
-
-### Data Visualization
-![Data Visualization](Screenshots/Figure_2.png)
-
-### Real-time Updates
-![Real-time Updates](Screenshots/Screenshot%202025-06-20%20at%201.09.25%20AM.png)
-
-### Platform Integration
-![Platform Integration](Screenshots/a0023361e2c4dd17f688e2311fbf95bce8ac8c881b4b263622e27731.png)
+![Trend Analysis](Screenshots/trend.png)
+*Detailed trend analysis with temporal patterns and correlations*
 
 ## Key Features
 

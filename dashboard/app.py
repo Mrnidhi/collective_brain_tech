@@ -6,52 +6,114 @@ from components.filters import sidebar_filters
 from components.charts import show_bar_chart, show_wordcloud, show_table, show_line_chart
 from components.alerts import show_alerts
 
-st.set_page_config(page_title="Collective Brain Dashboard", layout="wide")
+# Page config
+st.set_page_config(
+    page_title="Tech Trends Dashboard",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
-st.title("🧠 Collective Brain of Tech Students")
+# Custom CSS for GitHub-like styling
+st.markdown("""
+<style>
+    .stApp {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .st-emotion-cache-16txtl3 h1 {
+        font-weight: 600;
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    .st-emotion-cache-16txtl3 h2 {
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+    .st-emotion-cache-16txtl3 h3 {
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+    .stButton button {
+        background-color: #2ea44f;
+        color: white;
+        border: none;
+        padding: 6px 16px;
+        border-radius: 6px;
+        font-weight: 500;
+    }
+    .stButton button:hover {
+        background-color: #2c974b;
+    }
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+    }
+    .stTabs [data-baseweb="tab"] {
+        padding: 8px 16px;
+        background-color: #f6f8fa;
+        border-radius: 6px;
+    }
+    .stTabs [aria-selected="true"] {
+        background-color: #2ea44f !important;
+        color: white !important;
+    }
+</style>
+""", unsafe_allow_html=True)
 
-# Show alerts in sidebar
-show_alerts(location='sidebar')
+# Header
+st.title("🧠 Tech Trends Dashboard")
 
-# Sidebar: Refresh Data Button
-if st.sidebar.button('🔄 Refresh Trends'):
-    with st.spinner('Refreshing data...'):
-        if os.path.exists('run_fetch.py'):
-            subprocess.run(['python', 'run_fetch.py'])
-        if os.path.exists('trend_analysis/run_trends.py'):
-            subprocess.run(['python', 'trend_analysis/run_trends.py'])
-        st.cache_data.clear()
-        st.rerun()
+# Sidebar
+with st.sidebar:
+    st.subheader("Dashboard Controls")
+    
+    # Refresh button
+    if st.button('🔄 Refresh Data'):
+        with st.spinner('Refreshing data...'):
+            if os.path.exists('run_fetch.py'):
+                subprocess.run(['python', 'run_fetch.py'])
+            if os.path.exists('trend_analysis/run_trends.py'):
+                subprocess.run(['python', 'trend_analysis/run_trends.py'])
+            st.cache_data.clear()
+            st.rerun()
+    
+    # Show critical alerts only
+    show_alerts(location='sidebar', max_alerts=3)
 
 # Data loading
 fetched_data_path = "../fetched_data.json" if os.path.exists("../fetched_data.json") else "fetched_data.json"
 trends_path = "../trends.json" if os.path.exists("../trends.json") else "trends.json"
 
 if not (os.path.exists(fetched_data_path) and os.path.exists(trends_path)):
-    st.warning("fetched_data.json or trends.json not found. Please run the data pipeline first.\n\nTo generate data, run:\n\npython run_fetch.py\npython trend_analysis/run_trends.py")
+    st.warning("⚠️ Data files not found. Please run the data pipeline first.")
+    st.code("""
+# Generate data by running:
+python run_fetch.py
+python trend_analysis/run_trends.py
+    """)
     st.stop()
 
 data = load_fetched_data()
 trends = load_trends()
 
-# Sidebar filters
+# Filters
 filters = sidebar_filters(data)
 df = filters['filtered_df']
 platforms = filters['platforms']
 view_by = filters['view_by']
 top_n = filters['top_n']
 
-# Debug print for GitHub data after filtering
-st.write("GitHub rows in DataFrame after filtering:", df[df['source'] == 'github'].shape[0])
+# Search
+search_query = st.text_input('🔍 Search topics, tags, or keywords').strip().lower()
 
-# Search box
-search_query = st.text_input('🔍 Search tags, keywords, or text:').strip().lower()
-
-# Tabs for platform-specific insights
-tab_labels = ["📁 All Platforms", "🐙 GitHub", "💬 Stack Overflow", "👽 Reddit"]
+# Platform tabs
+tab_labels = ["📊 Overview", "🐙 GitHub", "💬 Stack Overflow", "👽 Reddit"]
 tabs = st.tabs(tab_labels)
 platform_map = {
-    "📁 All Platforms": None,
+    "📊 Overview": None,
     "🐙 GitHub": "github",
     "💬 Stack Overflow": "stackoverflow",
     "👽 Reddit": "reddit"
@@ -60,57 +122,46 @@ platform_map = {
 for i, tab in enumerate(tabs):
     with tab:
         platform = platform_map[tab_labels[i]]
-        if platform:
-            df_tab = df[df['source'] == platform]
-        else:
-            df_tab = df
+        df_tab = df[df['source'] == platform] if platform else df
+        
         if df_tab.empty:
-            st.info('No data found for this platform/filter.')
+            st.info('No data available for the selected filters.')
             continue
-        # Filter by search
+            
+        # Apply search filter
         if search_query:
             mask = (
                 df_tab['text'].str.lower().str.contains(search_query) |
                 df_tab['tags'].apply(lambda tags: any(search_query in str(tag).lower() for tag in tags))
             )
             df_tab = df_tab[mask]
-        # Show key stats
-        st.subheader(f"Key Stats - {tab_labels[i]}")
-        st.write(f"Total posts: {len(df_tab)}")
-        # Top tags/keywords/entities/repos
-        st.markdown("**Top Tags:**")
-        tags = trends['top_tags'] if not platform else [t for t in trends['top_tags'] if t[0] in set(tag for tags in df_tab['tags'] for tag in tags)]
-        if search_query:
-            tags = [t for t in tags if search_query in t[0].lower()]
-        show_bar_chart(tags, 'Top Tags', 'Tag', 'Count', top_n)
-        show_wordcloud([t[0] for t in tags[:top_n]], 'Tag Word Cloud')
-        st.markdown("**Top Keywords:**")
-        keywords = trends['top_keywords'] if not platform else [k for k in trends['top_keywords'] if any(k[0] in str(txt).lower() for txt in df_tab['text'])]
-        if search_query:
-            keywords = [k for k in keywords if search_query in k[0].lower()]
-        show_bar_chart(keywords, 'Top Keywords', 'Keyword', 'Score', top_n)
-        show_wordcloud([k[0] for k in keywords[:top_n]], 'Keyword Word Cloud')
-        st.markdown("**Top Entities:**")
-        entities = trends['top_entities'] if not platform else [e for e in trends['top_entities'] if any(e[0] in str(txt) for txt in df_tab['text'])]
-        if search_query:
-            entities = [e for e in entities if search_query in e[0].lower()]
-        show_bar_chart(entities, 'Top Entities', 'Entity', 'Count', top_n)
-        st.markdown("**Top Repos:**")
-        repos = trends['top_repos'] if not platform else [r for r in trends['top_repos'] if any(r[0] in str(meta.get('repo','')) for meta in df_tab['meta'])]
-        if search_query:
-            repos = [r for r in repos if search_query in r[0].lower()]
-        show_bar_chart(repos, 'Top GitHub Repos', 'Repo', 'Count', top_n)
-        # Trend over time
+        
+        # Platform stats
+        col1, col2 = st.columns([2, 1])
+        with col1:
+            st.subheader(f"Top Topics - {tab_labels[i]}")
+            tags = trends['top_tags'] if not platform else [t for t in trends['top_tags'] if t[0] in set(tag for tags in df_tab['tags'] for tag in tags)]
+            if search_query:
+                tags = [t for t in tags if search_query in t[0].lower()]
+            show_bar_chart(tags, 'Most Discussed Topics', 'Topic', 'Mentions', top_n)
+        
+        with col2:
+            st.subheader("Topic Cloud")
+            show_wordcloud([t[0] for t in tags[:top_n]], '')
+        
+        # Trend analysis
+        st.subheader("Trend Analysis")
         if 'timestamp' in df_tab.columns:
-            show_line_chart(df_tab, search_query, top_n)
-        # Top posts/discussions table
-        st.subheader("Top Posts/Discussions")
-        show_table(df_tab, view_by, top_n, search_query)
+            show_line_chart(df_tab, search_query, min(5, top_n))
+        
+        # Recent discussions
+        st.subheader("Recent Discussions")
+        show_table(df_tab, view_by, min(10, top_n), search_query)
 
-# Make auto-refresh optional
+# Optional auto-refresh
 try:
     from streamlit_autorefresh import st_autorefresh
     st_autorefresh(interval=300000, limit=None, key="refresh")
 except ImportError:
-    st.sidebar.warning("Auto-refresh not available. Manual refresh required.")
+    pass
 
