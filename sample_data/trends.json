@@ -1,0 +1,7 @@
+{
+  "top_tags": [["python", 2], ["bug", 1], ["parser", 1], ["error", 1], ["learnprogramming", 1]],
+  "top_keywords": [["python", 1.5], ["bug", 1.2], ["parser", 1.1], ["typeerror", 1.0], ["java", 0.9]],
+  "top_entities": [["Python", 2], ["Java", 1]],
+  "top_repos": [["user/repo1", 1]],
+  "keybert_keywords": [["python", 0.8], ["bug", 0.7], ["java", 0.6]]
+} 

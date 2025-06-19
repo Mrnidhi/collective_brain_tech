@@ -1,0 +1,10 @@
+streamlit
+pandas
+matplotlib
+wordcloud
+scikit-learn
+spacy
+keybert
+requests
+python-dotenv
+beautifulsoup4
