@@ -1,43 +1,42 @@
 # Interactive Dashboard
 
-This is our project's visual interface where you can explore all the tech trends we've discovered. Think of it as a digital newspaper that shows you what's happening in the technology world.
+This is the visual interface for exploring tech trends collected from GitHub, Stack Overflow, and Reddit. It provides an interactive way to analyze and visualize the data through a web-based dashboard.
 
 ## Features
 
 ### 1. Main Dashboard (`app.py`)
-The central hub of our visualization system:
-- Shows trending topics
-- Displays interactive charts
-- Provides search functionality
-- Updates in real-time
+The central interface that:
+- Displays trending topics and keywords
+- Shows platform-specific data in separate tabs
+- Provides search functionality across all data
+- Includes real-time data refresh capabilities
+- Auto-refreshes every 5 minutes
 
 ### 2. Chart Components (`charts.py`)
-Various ways to view the data:
-- Line graphs for trend changes
-- Bar charts for comparisons
-- Word clouds for popular topics
-- Heat maps for activity patterns
+Various visualization types:
+- **Bar Charts**: Display rankings and counts for keywords, tags, entities, and repositories
+- **Word Clouds**: Visualize keyword importance and frequency
+- **Line Charts**: Show trends over time
+- **Data Tables**: Display detailed post/discussion information
 
 ### 3. Filter System (`filters.py`)
-Tools to help you find specific information:
-- Date range selection
-- Platform filters
-- Topic categories
-- Popularity rankings
+Data filtering capabilities:
+- Platform selection (GitHub, Stack Overflow, Reddit)
+- Date range filtering
+- Top N results selection
+- View type selection (by score, date, etc.)
 
 ### 4. Alert System (`alerts.py`)
-Keeps you informed about important changes:
-- Trend spike notifications
-- New technology alerts
-- Significant changes
-- Custom alert settings
+Basic alert display:
+- Shows trend alerts in the sidebar
+- Displays important notifications
+- Integrates with the insights engine
 
 ### 5. Data Loading (`load_data.py`)
-Manages how information is shown:
-- Efficient data loading
-- Real-time updates
-- Cache management
-- Data synchronization
+Efficient data management:
+- Loads data from JSON files
+- Handles data caching
+- Manages data refresh
 
 ## How to Use
 
@@ -47,58 +46,90 @@ Manages how information is shown:
    streamlit run app.py
    ```
 
-2. Access features:
-   - Use the sidebar for navigation
-   - Click on charts to interact
-   - Use filters to find specific information
-   - Set up custom alerts
+2. Navigate the interface:
+   - Use the sidebar for filters and refresh options
+   - Switch between platform tabs
+   - Use the search box to find specific topics
+   - Click on charts for more details
 
 ## Dashboard Sections
 
-### 1. Overview Page
-- Summary of current trends
-- Key statistics
-- Important alerts
-- Quick navigation
+### 1. All Platforms Tab
+- Overview of all collected data
+- Cross-platform trends and comparisons
+- Overall statistics and rankings
 
-### 2. Platform Insights
-- GitHub trends
-- Stack Overflow analysis
-- Reddit discussions
+### 2. GitHub Tab
+- Commit message analysis
+- Repository activity trends
+- Programming language mentions
+- Developer activity patterns
+
+### 3. Stack Overflow Tab
+- Recent question analysis
+- Tag popularity trends
+- Problem-solving patterns
+- Technology adoption indicators
+
+### 4. Reddit Tab
+- Community discussion trends
+- Learning resource mentions
+- Career-related discussions
+- Programming community insights
+
+## Key Features
+
+### Search Functionality
+- Search across all text content
+- Filter by tags and keywords
+- Real-time search results
+- Case-insensitive matching
+
+### Interactive Visualizations
+- Clickable bar charts
+- Hover information on charts
+- Responsive design
+- Export capabilities
+
+### Data Refresh
+- Manual refresh button
+- Automatic refresh every 5 minutes
+- Cache clearing functionality
+- Real-time data updates
+
+### Platform-Specific Analysis
+- Separate views for each platform
+- Platform-specific metrics
 - Cross-platform comparisons
-
-### 3. Technology Tracker
-- Programming languages
-- Frameworks and tools
-- Learning resources
-- Career trends
-
-### 4. Custom Analysis
-- Create custom views
-- Save favorite charts
-- Export data
-- Share insights
-
-## Customization
-
-You can customize the dashboard by:
-- Changing color themes
-- Adjusting update frequency
-- Setting default views
-- Creating custom layouts
+- Source-specific insights
 
 ## Technical Details
 
 The dashboard is built with:
-- Streamlit for the interface
-- Plotly for interactive charts
-- Pandas for data handling
-- SQLite for data storage
+- **Streamlit**: Web framework for the interface
+- **Plotly**: Interactive chart generation
+- **Pandas**: Data manipulation and analysis
+- **Matplotlib**: Additional visualization support
+
+## Data Requirements
+
+The dashboard requires these files to be present:
+- `fetched_data.json`: Raw collected data
+- `trends.json`: Analyzed trends and rankings
+
+## Customization
+
+You can customize the dashboard by:
+- Modifying chart styles and colors
+- Adding new visualization types
+- Changing the refresh interval
+- Adding new filter options
+- Customizing the layout
 
 ## Tips for Users
 
-1. Use filters to focus on specific topics
-2. Interact with charts for more details
-3. Set up alerts for important changes
-4. Save your favorite views
-5. Export data for further analysis 
+1. **Use Filters**: Narrow down data by platform and date
+2. **Search Effectively**: Use specific keywords for better results
+3. **Explore Tabs**: Each platform provides unique insights
+4. **Refresh Data**: Use the refresh button to get latest trends
+5. **Interact with Charts**: Click on chart elements for more details 

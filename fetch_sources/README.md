@@ -1,77 +1,102 @@
 # Data Collection Module
 
-This module is responsible for gathering information from various technology platforms. Think of it as a digital librarian that collects interesting discussions, trends, and updates from the tech world.
+This module is responsible for gathering information from various technology platforms. It collects data from GitHub, Stack Overflow, and Reddit to understand what developers are working on and discussing.
 
 ## How It Works
 
 ### 1. GitHub Collector (`github_fetcher.py`)
-This component tracks what developers are building and discussing on GitHub. It:
-- Monitors popular repositories
-- Collects information about new projects
-- Tracks trending programming languages
-- Analyzes commit messages to understand what developers are working on
+This component tracks GitHub activity:
+- Fetches recent push events from GitHub's public API
+- Extracts commit messages and repository information
+- Collects repository names and URLs
+- Handles API rate limits and errors gracefully
 
 ### 2. Stack Overflow Collector (`so_fetcher.py`)
-This part focuses on what developers are asking and learning about:
-- Gathers recent questions and their topics
-- Tracks popular programming problems
-- Identifies common coding challenges
-- Monitors trending technologies through questions
+This part focuses on developer questions:
+- Fetches recent questions from Stack Overflow API
+- Collects question titles, tags, and scores
+- Monitors activity-based sorting
+- Retrieves question URLs for reference
 
 ### 3. Reddit Collector (`reddit_fetcher.py`)
-This component analyzes discussions in technology-focused communities:
-- Follows conversations in programming subreddits
-- Captures trending topics and discussions
-- Identifies popular learning resources
-- Tracks career-related discussions
+This component analyzes programming discussions:
+- Fetches posts from r/learnprogramming, r/AskProgramming, and r/cscareerquestions
+- Collects post titles, scores, and URLs
+- Uses PRAW library for Reddit API access
+- Requires Reddit API credentials
 
 ### 4. Utilities (`utils.py`)
-This helper module contains common tools used by all collectors:
-- Data formatting functions
-- API connection handlers
-- Error management
-- Data validation tools
+This helper module contains common tools:
+- Timestamp parsing functions
+- Data formatting utilities
+- Error handling helpers
 
 ## How to Use
 
-1. Make sure you have the required API keys in your `.env` file
-2. Run the collector you need:
+1. Set up your Reddit API credentials in `.env`:
+   ```
+   REDDIT_CLIENT_ID=your_client_id
+   REDDIT_SECRET=your_client_secret
+   ```
+
+2. Run the main collection script:
+   ```bash
+   python run_fetch.py
+   ```
+
+3. Or use individual collectors:
    ```python
-   from fetch_sources import github_fetcher
+   from fetch_sources import github_fetcher, so_fetcher, reddit_fetcher
    
-   # Collect GitHub data
-   github_data = github_fetcher.fetch_latest_data()
+   # Collect from specific platforms
+   github_data = github_fetcher.fetch_github_push_events()
+   so_data = so_fetcher.fetch_stackoverflow_questions()
+   reddit_data = reddit_fetcher.fetch_reddit_posts()
    ```
 
 ## Data Format
 
-All collectors format their data in a consistent way:
+All collectors format their data consistently:
 ```json
 {
     "source": "platform_name",
     "timestamp": "2024-03-20T10:30:00Z",
-    "content": "The main text or content",
+    "text": "The main content (commit message, question title, or post title)",
     "tags": ["relevant", "tags"],
-    "metadata": {
+    "meta": {
+        "repo": "repository_name",  // GitHub only
         "url": "source_url",
-        "author": "content_creator",
-        "platform_specific_data": "value"
+        "score": 42,  // Stack Overflow/Reddit
+        "lang": ""    // GitHub (placeholder)
     }
 }
 ```
 
-## Error Handling
-
-The module includes proper error handling for common issues:
-- Network connection problems
-- API rate limits
-- Invalid data formats
-- Missing credentials
-
 ## Configuration
 
-Each collector can be configured through environment variables:
-- API keys and secrets
-- Rate limiting settings
-- Data filtering options
-- Output preferences 
+### GitHub
+- Uses public API (no authentication required)
+- Fetches recent push events
+- Extracts commit messages and repo info
+
+### Stack Overflow
+- Uses Stack Exchange API
+- Fetches 30 most recent questions
+- Sorts by activity
+
+### Reddit
+- Requires Reddit API credentials
+- Fetches 25 posts from each subreddit
+- Monitors programming-related communities
+
+## Error Handling
+
+The module includes error handling for:
+- Network connection issues
+- API rate limits
+- Missing credentials
+- Invalid data formats
+
+## Output
+
+Data is saved to `fetched_data.json` in the project root directory, containing all collected information in a unified format ready for analysis. 
